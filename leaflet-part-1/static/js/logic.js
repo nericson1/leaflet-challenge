@@ -41,7 +41,7 @@ d3.json(link).then(function(data) {
                 color: "#000",
                 weight: 1,
                 opacity: 1,
-                fillOpacity: 0.8
+                fillOpacity: 1
             // creating the popup feature for each marker, displaying it's location and magnitude
             }).bindPopup(`<h1>${feature.properties.place}</h1><hr><h3>Magnitude: ${feature.properties.mag}</h3>`);
         },
