@@ -1,7 +1,7 @@
 # leaflet-challenge
 
 ## Description
-This repository contains multiple files that culminate in the display of a map through the web browser in which information can be found regarding the location, magnitude, and depth of all 4.5+ earthquakes in the past 30 days. This data is read into a JavaScript file using the D3 library and a geoJSON file provided by the United States Geological Survey (USGS). Leaflet is used to create the map layer, markers, and legend seen on the map. The JavaScript code, found on the file titled 'logic.js', is read into the html code on line 31 of the file titled 'index.html'. Additionally, a CSS file titled 'style.css' is read into the index.html file on line 16, which enables the legend functionality of the map. 
+This repository contains multiple files that culminate in the display of a map through the web browser in which information can be found regarding the location, magnitude, and depth of all M 4.5+ earthquakes in the past 30 days. This data is read into a JavaScript file using the D3 library and a geoJSON file provided by the United States Geological Survey (USGS). Leaflet is used to create the map layer, markers, and legend seen on the map. The JavaScript code, found on the `logic.js` is read into the html code on line 31 of the `index.html` file. Additionally, a CSS file titled  `style.css` is read into the index.html file on line 16, which enables the legend functionality of the map. 
 
 ## References
 While some of my resources for this assignment did come from activities done in class, I did have to do additional research and use outside resources as well in order to be successful.
